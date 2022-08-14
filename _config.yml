@@ -1,4 +1,6 @@
-title: ubztechdive
+title: ubzTechdive
+description: technical journal, cheat sheets and tutorials
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+logo: /assets/img/tech-dive-02.png
 plugins:
 - jekyll-remote-theme
