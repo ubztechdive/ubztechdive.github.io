@@ -2,11 +2,17 @@ title: ubzTechdive
 description: technical journal, cheat sheets and tutorials
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 logo: /assets/img/tech-dive-02.png
-plugins:
-- jekyll-remote-theme
-
 
 github_username:    ubztechdive
 facebook_username:  ubzreyes
 instagram_username: ubzie_
 linkedin_username:  eubert-reyes
+
+
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
