@@ -1,4 +1,4 @@
-title: Tech Dive Blog
-remote_theme: pages-themes/architect@v0.2.0
+title: ubztechdive
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
 - jekyll-remote-theme
