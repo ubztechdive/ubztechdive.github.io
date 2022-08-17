@@ -9,7 +9,7 @@ const data = {
     ],
     datasets: [{
       label:"",
-      data: [8, 5, 3, 9, 10, 8],
+      data: [8, 8, 3, 9, 10, 8],
       fill: true,
       backgroundColor: 'rgba(0, 133, 161, 0.2)',
       borderColor: '#0085A1',
