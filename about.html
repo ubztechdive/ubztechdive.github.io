@@ -1,0 +1,49 @@
+---
+layout: page
+title: About Me
+description: ...
+background: '/assets/img/me2.jpg'
+---
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/assets/chart.js"></script>
+<script src="/assets/config.js"></script>
+
+<style>
+.column {
+  /* float: left; */
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  justify-content: end;
+}
+.profile {
+  width: 80%;
+}
+
+</style>
+
+
+<div class="container">
+  <div class="row">
+    <div class="column">
+        <canvas id="myChart"></canvas>
+    </div>
+    <div class="column">
+        <img src="/assets/img/profile.jpg" class="profile">
+    </div>
+  </div>
+</div>
+
+
+<script>
+    const myChart = new Chart(
+      document.getElementById('myChart'),
+      config
+    );
+</script>
